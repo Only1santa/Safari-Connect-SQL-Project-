@@ -29,7 +29,7 @@ select count(*) from safari_connect.booking_staging;
 select * from safari_connect.booking_staging bs limit 10;
 
 
---Cleaning passenger_names==============================================================
+--Cleaning passenger_names======================================================================
 
 select distinct passenger_name
 from safari_connect.booking_staging bs 
